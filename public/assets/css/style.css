@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar {
+    background-color: #1e1812 !important;
+}
+
+.container {
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+.links {
+    background-color: #F73D93;
+}
+
+.nav-item {
+    border: 1px solid #F73D93;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    padding-left: 1px;
+    padding-top: 1rem;
+    color: #fff;
+    background-color: #7F8487;
+}
+
+.letraNav {
+    color: #ffff;
+}
+
