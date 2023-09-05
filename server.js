@@ -1,5 +1,6 @@
 const express = require("express");
 const app = express();
+const routes = require("./app/routes/routes.js");
 require("dotenv").config();
 const PORT = process.env.PORT;
 
@@ -13,6 +14,9 @@ app.use(express.static(__dirname + "/public"));
 
 app.get("/", (req, res) => {
     res.render("index")
+});
+app.get("/aboutme", (req, res) => {
+  res.render("about");
 });
 
 app.use(express.json());

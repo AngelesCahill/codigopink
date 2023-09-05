@@ -3,36 +3,75 @@ body {
     padding: 0;
     box-sizing: border-box;
 }
+
 .navbar {
     background-color: #1e1812 !important;
 }
 
 .container {
-    margin-right: 1rem;
-    margin-left: 1rem;
+    max-width: 1156px;
 }
 
 .links {
-    background-color: #F73D93;
+    background-color: #7F8487;
 }
 
 .nav-item {
-    border: 1px solid #F73D93;
-    height: 5rem;
-    width: 5rem;
-    border-radius: 50%;
+    border: 0.1rem solid #413F42;
+    width: 7rem;
+    border-radius: 50% 50% 0% 0%;
     margin-top: 1rem;
     margin-left: 1rem;
     margin-right: 1rem;
     margin-bottom: 1rem;
     text-align: center;
-    padding-left: 1px;
-    padding-top: 1rem;
-    color: #fff;
-    background-color: #7F8487;
+    background-color: #F73D93;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.nav-item:hover {
+    background-color: #F2F2F2;
 }
 
 .letraNav {
     color: #ffff;
+}
+
+.yo {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.card-angeles {
+    background-color: #E4E8ED;
+}
+
+.card-top {
+    border-radius: 50% 50% 0 0;
+    background-color: #ffff;
+    margin: 1rem;
+    margin-bottom: 0;
+}
+
+.card-bottom {
+    border-radius: 0 0 50% 50%;
+    background-color: #ffff;
+    margin: 1rem;
+    margin-top: 0;
+}
+
+.card-img-top-angeles {
+    border-radius: 50%;
+    padding: 1rem;
+}
+
+.prueba1 {
+    height: 13rem;
+    border: 1 px solid black;
+    background-color: aqua;
+}
+.prueba2 {
+    height: 13rem;
+    border: 1 px solid black;
+    background-color: rgb(255, 179, 0);
 }
 
