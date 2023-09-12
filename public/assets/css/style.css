@@ -11,7 +11,7 @@ body {
 .container {
     max-width: 1156px;
 }
-
+/* nav */
 .navbar-brand {
     width: 20rem;
     height: 10rem;
@@ -46,21 +46,72 @@ body {
 .letraNav {
     color: #ffff;
 }
-/*home*/
-.grid-container {
-    display: grid;
-    margin-top: 3rem;
-    column-gap: 50px;
-    row-gap: 50px;
-    grid-template-columns: auto auto auto;
-    background-color: #2196F3;
-    padding: 10px;
+
+/* home */
+.card-projects {
+    text-align: center;
+    align-items: center;
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+    height: 26rem;
 }
-.grid-item {
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 20px;
-    font-size: 30px;
+
+.card-img-top-projects {
+    width: 6rem;
+    height: 6rem;
+}
+
+.card-body-projects {
+    height: 10rem;
+    margin-top: 3rem;
+}
+.card-text-projects {
+    font-size: 1rem;
+    width: 10rem;
+    height: 6rem;
+}
+
+.card-codigoArk {
+    font-size: 1rem;
+    text-align: center;
+}
+.imgCodigoark {
+    text-align: center !important;
+    align-items: center !important;
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
+}
+.imgCodeArk {
+    margin: 0 !important;
+    width: 50% !important;
+    height: auto !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.slideButton {
+    background-color: #7F8487;
+}
+.btnCodeArk {
+    background-color: #F73D93 !important;
+    padding:0.5rem;
+    width: 12rem;
+}
+
+.btnCodeArkLarge {
+    width: 100%;
+}
+
+.githubDir {
+    background-color: #7F8487;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.githubLink {
+    background-color: #7F8487;
+    display: block;
     text-align: center;
 }
 /* aboutme */
