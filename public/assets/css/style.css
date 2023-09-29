@@ -27,10 +27,14 @@ body {
     background-color: #7F8487;
 }
 
-.nav-item {
+.nav-options {
+    background-color: #1e1812 !important;
+    color: #ffffff;
+}
+
+.nav-item-pink {
     border: 0.1rem solid #413F42;
-    width: 7rem;
-    border-radius: 50% 50% 0% 0%;
+    width: 10rem;
     margin-top: 1rem;
     margin-left: 1rem;
     margin-right: 1rem;
@@ -80,6 +84,8 @@ body {
     align-items: center !important;
     padding-left: 0.5rem !important;
     padding-right: 0.5rem !important;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 .imgCodeArk {
     margin: 0 !important;
@@ -228,4 +234,21 @@ body {
 
 .proximamente {
     font-size: 0.6rem;
+}
+
+/* Interest */
+.indiceInterest {
+    position: fixed;
+    top: 10;
+}
+
+
+.arrmeth {
+    width: 40rem;
+
+}
+
+.imgCiclo {
+    width: 38rem;
+    height: 30rem;
 }
